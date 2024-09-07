@@ -1,0 +1,26 @@
+<RCC>
+  <qresource prefix="/demos/rssnews">
+    <file alias="content/BusyIndicator.qml">C:/Qt/Examples/Qt-6.7.2/demos/rssnews/content/BusyIndicator.qml</file>
+    <file alias="content/CategoryDelegate.qml">C:/Qt/Examples/Qt-6.7.2/demos/rssnews/content/CategoryDelegate.qml</file>
+    <file alias="content/NewsDelegate.qml">C:/Qt/Examples/Qt-6.7.2/demos/rssnews/content/NewsDelegate.qml</file>
+    <file alias="content/RssFeeds.qml">C:/Qt/Examples/Qt-6.7.2/demos/rssnews/content/RssFeeds.qml</file>
+    <file alias="content/ScrollBar.qml">C:/Qt/Examples/Qt-6.7.2/demos/rssnews/content/ScrollBar.qml</file>
+    <file alias="content/images/Asia.jpg">C:/Qt/Examples/Qt-6.7.2/demos/rssnews/content/images/Asia.jpg</file>
+    <file alias="content/images/Business.jpg">C:/Qt/Examples/Qt-6.7.2/demos/rssnews/content/images/Business.jpg</file>
+    <file alias="content/images/Entertainment.jpg">C:/Qt/Examples/Qt-6.7.2/demos/rssnews/content/images/Entertainment.jpg</file>
+    <file alias="content/images/Europe.jpg">C:/Qt/Examples/Qt-6.7.2/demos/rssnews/content/images/Europe.jpg</file>
+    <file alias="content/images/Health.jpg">C:/Qt/Examples/Qt-6.7.2/demos/rssnews/content/images/Health.jpg</file>
+    <file alias="content/images/Politics.jpg">C:/Qt/Examples/Qt-6.7.2/demos/rssnews/content/images/Politics.jpg</file>
+    <file alias="content/images/Science.jpg">C:/Qt/Examples/Qt-6.7.2/demos/rssnews/content/images/Science.jpg</file>
+    <file alias="content/images/Sports.jpg">C:/Qt/Examples/Qt-6.7.2/demos/rssnews/content/images/Sports.jpg</file>
+    <file alias="content/images/Technology.jpg">C:/Qt/Examples/Qt-6.7.2/demos/rssnews/content/images/Technology.jpg</file>
+    <file alias="content/images/TopStories.jpg">C:/Qt/Examples/Qt-6.7.2/demos/rssnews/content/images/TopStories.jpg</file>
+    <file alias="content/images/USNational.jpg">C:/Qt/Examples/Qt-6.7.2/demos/rssnews/content/images/USNational.jpg</file>
+    <file alias="content/images/World.jpg">C:/Qt/Examples/Qt-6.7.2/demos/rssnews/content/images/World.jpg</file>
+    <file alias="content/images/btn_close.png">C:/Qt/Examples/Qt-6.7.2/demos/rssnews/content/images/btn_close.png</file>
+    <file alias="content/images/busy.png">C:/Qt/Examples/Qt-6.7.2/demos/rssnews/content/images/busy.png</file>
+    <file alias="content/images/scrollbar.png">C:/Qt/Examples/Qt-6.7.2/demos/rssnews/content/images/scrollbar.png</file>
+    <file alias="rssnews.qml">C:/Qt/Examples/Qt-6.7.2/demos/rssnews/rssnews.qml</file>
+  </qresource>
+</RCC>
+

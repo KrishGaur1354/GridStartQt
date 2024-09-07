@@ -1,0 +1,25 @@
+# ninja log v5
+41	202	7474198258799183	rssnews_autogen/timestamp	336799a75f2036b5
+14	92	7474038602097506	.qt/qml_imports/rssnews_build.cmake	f9121df4baca56
+41	202	7474198258799183	rssnews_autogen/mocs_compilation.cpp	336799a75f2036b5
+14	92	7474038602097506	C:/Qt/Examples/Qt-6.7.2/demos/rssnews/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/qml_imports/rssnews_build.cmake	f9121df4baca56
+41	202	7474198258799183	C:/Qt/Examples/Qt-6.7.2/demos/rssnews/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/rssnews_autogen/timestamp	336799a75f2036b5
+54	113	7474197796864530	.qt/rcc/qrc_rssnews.cpp	c58ed839bbae18c9
+41	202	7474198258799183	C:/Qt/Examples/Qt-6.7.2/demos/rssnews/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/rssnews_autogen/mocs_compilation.cpp	336799a75f2036b5
+54	113	7474197796864530	C:/Qt/Examples/Qt-6.7.2/demos/rssnews/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qrc_rssnews.cpp	c58ed839bbae18c9
+362	412	7474038605310284	CMakeFiles/rssnews.dir/rssnews_autogen/mocs_compilation.cpp.obj	3be5dbc3e004a64e
+113	443	7474197800192996	CMakeFiles/rssnews.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qrc_rssnews.cpp.obj	aee3d6ee858d460
+366	2282	7474038624001792	CMakeFiles/rssnews.dir/main.cpp.obj	7e1f15fc44567bcd
+444	650	7474197802203937	rssnews.exe	7bc596de30634650
+35	166	7474201087349065	rssnews_autogen/timestamp	336799a75f2036b5
+35	166	7474201087349065	rssnews_autogen/mocs_compilation.cpp	336799a75f2036b5
+35	166	7474201087349065	C:/Qt/Examples/Qt-6.7.2/demos/rssnews/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/rssnews_autogen/timestamp	336799a75f2036b5
+35	166	7474201087349065	C:/Qt/Examples/Qt-6.7.2/demos/rssnews/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/rssnews_autogen/mocs_compilation.cpp	336799a75f2036b5
+51	127	7474202906170365	.qt/rcc/qrc_rssnews.cpp	c58ed839bbae18c9
+51	127	7474202906170365	C:/Qt/Examples/Qt-6.7.2/demos/rssnews/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qrc_rssnews.cpp	c58ed839bbae18c9
+128	1229	7474202917197324	CMakeFiles/rssnews.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qrc_rssnews.cpp.obj	aee3d6ee858d460
+1229	1420	7474202919055312	rssnews.exe	7bc596de30634650
+31	106	7474203774358105	.qt/rcc/qrc_rssnews.cpp	c58ed839bbae18c9
+31	106	7474203774358105	C:/Qt/Examples/Qt-6.7.2/demos/rssnews/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qrc_rssnews.cpp	c58ed839bbae18c9
+107	964	7474203782943240	CMakeFiles/rssnews.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qrc_rssnews.cpp.obj	aee3d6ee858d460
+964	1127	7474203784532484	rssnews.exe	7bc596de30634650
