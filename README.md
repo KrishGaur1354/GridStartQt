@@ -1,110 +1,67 @@
-# Qt Application Packaging with Flatpak
+# Motorsport RSS Reader
 
-This guide helps you package and deploy your Qt application as a Flatpak from a Windows environment using WSL (Windows Subsystem for Linux).
+A modern RSS feed reader specifically designed for motorsport enthusiasts, built with Qt/KDE.
 
-## Prerequisites
-Make sure you have the following set up on your machine:
-- **WSL** (Windows Subsystem for Linux) with a compatible Linux distribution like Ubuntu.
-- **Qt** project ready for deployment.
+## Features
 
-## Installation Steps
+- Dark theme optimized for motorsport content
+- Multiple feed support (Formula 1, MotoGP, NASCAR, WRC, etc.)
+- Feed categorization and filtering
+- Article saving and sharing
+- Offline reading with caching
+- Desktop notifications for new articles
+- Cross-platform: Linux, Windows, and macOS compatibility
 
-### Step 1: Install Flatpak and Flatpak-Builder
+## Screenshots
 
-1. **Install Flatpak:**
-   - Run the following commands in your WSL terminal:
-     ```bash
-     sudo apt update
-     sudo apt install flatpak
-     ```
+![Motorsport RSS Reader](screenshot.png)
 
-2. **Add Flathub Repository (Optional but Recommended):**
-   - Add the Flathub repository to get access to a wide range of applications:
-     ```bash
-     sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-     ```
+## Installation
 
-3. **Install Flatpak-Builder:**
-   - Install Flatpak-Builder, a tool required to build Flatpak packages:
-     ```bash
-     sudo apt install flatpak-builder
-     ```
+### Linux
 
-### Step 2: Prepare Your Qt Application
+#### Debian/Ubuntu
 
-1. **Move Your Application to WSL:**
-   - Copy your Qt project files from Windows to a directory in WSL. You can access your Windows files in WSL under `/mnt/c/`.
+```bash
+sudo dpkg -i motorsportrss_1.0.0_amd64.deb
+```
 
-2. **Install Qt and Dependencies:**
-   - Install the required Qt packages inside WSL:
-     ```bash
-     sudo apt install qt5-default
-     ```
-   - Ensure all necessary dependencies are installed.
+#### AppImage
 
-3. **Build Your Application:**
-   - Navigate to your project directory and run the following commands:
-     ```bash
-     qmake
-     make
-     ```
+```bash
+chmod +x MotorsportRSS-x86_64.AppImage
+./MotorsportRSS-x86_64.AppImage
+```
 
-### Step 3: Create a Flatpak Manifest
+### Windows
 
-1. **Create a Manifest File:**
-   - In your project directory, create a JSON file (e.g., `com.example.MyApp.json`) with the following structure:
-     ```json
-     {
-       "id": "com.example.MyApp",
-       "runtime": "org.kde.Platform",
-       "runtime-version": "5.15",
-       "sdk": "org.kde.Sdk",
-       "command": "myapp",
-       "modules": [
-         {
-           "name": "myapp",
-           "buildsystem": "qmake",
-           "sources": [
-             {
-               "type": "dir",
-               "path": "."
-             }
-           ]
-         }
-       ]
-     }
-     ```
+Download and run the installer from the releases page or follow the build instructions in `build_windows.sh`.
 
-2. **Edit the Manifest:**
-   - Replace `"myapp"` with the actual name of your executable.
-   - Ensure the `runtime`, `sdk`, and other settings match your application's requirements.
+## Building from Source
 
-### Step 4: Build the Flatpak Package
+### Requirements
 
-1. **Build with Flatpak-Builder:**
-   - Run the following command in your project directory to build the Flatpak:
-     ```bash
-     flatpak-builder --repo=repo build-dir com.example.MyApp.json
-     ```
-   - This command creates a repository (`repo`) and builds the package in the `build-dir`.
+- Qt 5.15.2 or newer
+- Qt SVG, Network, and XML modules
+- C++11 compatible compiler
 
-2. **Export and Test the Flatpak:**
-   - Export the built application as a Flatpak bundle:
-     ```bash
-     flatpak build-bundle repo MyApp.flatpak com.example.MyApp
-     ```
-   - Test the Flatpak by installing it locally:
-     ```bash
-     flatpak install MyApp.flatpak
-     flatpak run com.example.MyApp
-     ```
+### Linux
 
-### Additional Tips
+```bash
+qmake
+make
+./MotorsportRSS
+```
 
-- **Debugging:**
-  - If you encounter issues during the build process, use the `flatpak-builder --verbose` flag to get detailed output.
-  
-- **Continuous Integration:**
-  - Consider setting up a CI/CD pipeline using GitHub Actions or GitLab CI to automate Flatpak builds.
+### Windows
 
+See `build_windows.sh` for detailed instructions on building for Windows.
 
+## License
+
+This project is licensed under the MIT License - see the LICENSE.txt file for details.
+
+## Credits
+
+- Created by KrishGaur1354
+- Improved by community contributions 
