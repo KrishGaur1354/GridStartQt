@@ -1,6 +1,6 @@
-# Motorsport RSS Reader
+# QT-Based Motorsport RSS Reader
 
-A modern RSS feed reader specifically designed for motorsport enthusiasts, built with Qt/KDE.
+A modern RSS feed reader specifically designed for motorsport enthusiasts, built with Qt.
 
 ## Features
 
@@ -64,4 +64,3 @@ This project is licensed under the MIT License - see the LICENSE.txt file for de
 ## Credits
 
 - Created by KrishGaur1354
-- Improved by community contributions 
